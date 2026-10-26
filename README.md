@@ -1,55 +1,45 @@
 # Ismaeel Habeeb
 
-### Computer programmer · Software engineering · Technical communication
+![Software development and technical writing](assets/header.svg)
 
-I build web applications, backend services and tools that help people work together. My interests span realtime systems, thoughtful architecture and the details that make software dependable and usable.
+I build browser tools and backend services with TypeScript, JavaScript, Python and SQL. My current work focuses on file processing, API boundaries and recovery when a request or worker fails.
 
-**Currently working with TypeScript, JavaScript, Python and SQL**, alongside Rust and C.
+[Portfolio](https://ismaeel-habeeb-publication.hub-0.workers.dev/) · [LinkedIn](https://www.linkedin.com/in/ismaeel-habeeb-01980619b/) · [Email](mailto:ismaeelakin09@gmail.com)
 
-[**Portfolio ↗**](https://ismaeel-habeeb-publication.hub-0.workers.dev/) · [LinkedIn](https://www.linkedin.com/in/ismaeel-habeeb-01980619b/) · [Contact](mailto:ismaeelakin09@gmail.com)
+## Try a product
 
----
+### [Rowcraft: CSV review and export](https://ismaeelakin.github.io/rowcraft/)
 
-## Selected engineering work
+Upload or paste your own file, choose checks, inspect flagged records and export the rows that pass. File contents stay in the browser. No account is required.
 
-| Project | Engineering focus |
-| :--- | :--- |
-| **[Rowcraft · use the app ↗](https://ismaeelakin.github.io/rowcraft/)** | A private CSV checking and cleanup product. Use your own file, configure checks, review issues, and download ready rows. TypeScript, background workers, accessible controls and tested exports. [Source](https://github.com/ismaeelakin/rowcraft). |
-| **[Dispatch Ledger](https://github.com/ismaeelakin/dispatch-ledger)** | Tenant-isolated TypeScript webhook delivery service: atomic event/outbox fanout, encrypted signing secrets, HMAC requests, retry and replay history, and an operations console. [Architecture](https://github.com/ismaeelakin/dispatch-ledger/blob/main/docs/ARCHITECTURE.md) · [27-test CI](https://github.com/ismaeelakin/dispatch-ledger/actions/workflows/ci.yml). |
-| **[RelayBox](https://github.com/ismaeelakin/relaybox)** | Python / SQLite durable job queue with a TypeScript console. Exclusive claims, token-fenced leases, idempotent enqueueing, retry backoff and dead-letter replay. [Failure analysis](https://github.com/ismaeelakin/relaybox/blob/main/docs/ARCHITECTURE.md) · [Tests & CI](https://github.com/ismaeelakin/relaybox/actions/workflows/ci.yml). |
-| **[Latency Atlas](https://github.com/ismaeelakin/latency-atlas)** | Rust and C streaming latency histograms with bounded storage, overflow-safe merges and explicit percentile bounds. [Numerical design](https://github.com/ismaeelakin/latency-atlas/blob/main/docs/DESIGN.md) · [Independent conformance oracle](https://github.com/ismaeelakin/latency-atlas/blob/main/tests/conformance.py). |
-| **[Publishing & learning platform ↗](https://ismaeel-habeeb-publication.hub-0.workers.dev/)** | Cloudflare Workers and D1, server-rendered articles, course progression, authentication and scoped team workflows. |
-| **AkinSpace** | TypeScript collaboration application and Socket.IO backend, with room messaging, presence, typing events and whiteboard updates. |
-| **Jobboard** | Next.js frontend and Python / Django REST backend, with job listings, company permissions, applications and assessment workflows. |
+[![Rowcraft review workspace](assets/rowcraft.png)](https://ismaeelakin.github.io/rowcraft/)
 
-*The latter two projects are held in private repositories.*
+[Source](https://github.com/ismaeelakin/rowcraft) · [Design](https://github.com/ismaeelakin/rowcraft/blob/main/docs/DESIGN.md) · [Tests](https://github.com/ismaeelakin/rowcraft/tree/main/test)
 
-The repositories include runnable examples, tests and design notes. Their READMEs describe deployment boundaries and tradeoffs.
+## Inspect the engineering
 
-### What to inspect
+| Project | What to review | How to run it |
+| --- | --- | --- |
+| [Dispatch Ledger](https://github.com/ismaeelakin/dispatch-ledger) | TypeScript webhook service. Transactional fanout, tenant isolation, HMAC signatures and retained attempt history. | `npm ci` then `npm run demo`; API, worker and local receivers start together. |
+| [RelayBox](https://github.com/ismaeelakin/relaybox) | Python/SQLite job queue. Claims, lease fencing, idempotency and dead-letter recovery. | `python -m relaybox.server`; no Python packages required. |
+| [Latency Atlas](https://github.com/ismaeelakin/latency-atlas) | Bounded-memory histograms with explicit percentile bounds. Independent Python tests compare Rust and C against exact ranks. | Build the CLIs, then run the documented conformance harness. |
 
-- **A usable product:** Rowcraft's upload/paste workflow, rule-driven preview, original-value inspection, CSV downloads and review reports. Try it directly with your own data.
-- **API and tenant boundaries:** Dispatch Ledger's transactional fanout, signed HTTP attempts, tenant isolation, recovery tests and audit trail.
-- **Concurrency and recovery:** RelayBox's transaction boundaries, stale-worker rejection, deterministic time tests and Linux/Windows CI.
-- **Systems and numerical reasoning:** Latency Atlas's integer rank arithmetic, Rust/C parity, exact-order-statistic oracle and sanitizer checks.
-- **Technical communication:** Design notes explain the guarantees, failure modes and tradeoffs alongside the implementation.
+These are reference implementations with documented limits. Their tests and design notes are available alongside the code; production use and independent review are not implied.
 
-## Tools & interests
+## Research and reproducibility
 
-**Languages** &nbsp; TypeScript · JavaScript · Python · SQL · Rust · C  
-**Web & backend** &nbsp; Next.js · Node.js · Django REST Framework · Socket.IO  
-**Platform & data** &nbsp; Cloudflare Workers · D1 / SQLite · Git · Docker
+Latency Atlas provides an [independent conformance oracle](https://github.com/ismaeelakin/latency-atlas/blob/main/tests/conformance.py), [numerical design notes](https://github.com/ismaeelakin/latency-atlas/blob/main/docs/DESIGN.md) and a [benchmark procedure](https://github.com/ismaeelakin/latency-atlas/blob/main/docs/BENCHMARKS.md). Dispatch Ledger and RelayBox document failure cases and test transaction and recovery behavior. These are starting points for inspection and replication, not published research claims.
 
-I focus on clear interfaces, dependable data flows, failure recovery, and practical tools people can use.
+## Other work
 
-## Earlier learning work
+I maintain a [publishing and learning platform](https://ismaeel-habeeb-publication.hub-0.workers.dev/) and write technical documentation. Private projects include AkinSpace, a collaboration application, and Jobboard, a job and application workflow. Their source is not public.
 
-[**Guess My Number**](https://github.com/ismaeelakin/Guess_My_Number_JS-Project) · JavaScript game practice with DOM events, scoring and reset behaviour.
+My earlier [number game](https://github.com/ismaeelakin/Guess_My_Number_JS-Project) and [JavaScript exercises](https://github.com/ismaeelakin/js-fundamentals) remain as learning work. The pinned repositories are the best place to start a code review.
 
-[**JavaScript fundamentals**](https://github.com/ismaeelakin/js-fundamentals) · [**Further JavaScript exercises**](https://github.com/ismaeelakin/fundamental_js_part_2)
+## Tools
 
-## Technical writing
+TypeScript · JavaScript · Python · SQL · Node.js · Django REST Framework · Next.js · SQLite · Git
 
-I also write and edit technical documentation and research-led content, making complex ideas easier to understand and use.
+I also study numerical programming through the existing Rust and C implementations in Latency Atlas.
 
-**Have a software project or documentation challenge? [Let's talk →](mailto:ismaeelakin09@gmail.com)**
+For software development or technical documentation work, [contact me by email](mailto:ismaeelakin09@gmail.com).
