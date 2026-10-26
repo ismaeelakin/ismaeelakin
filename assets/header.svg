@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
-<title id="title">Software development and technical writing</title><desc id="desc">Browser tools, backend services and reproducible engineering work by Ismaeel Habeeb.</desc>
+<title id="title">Programming, systems and technical writing</title><desc id="desc">Browser tools, backend services and reproducible engineering work by Ismaeel Habeeb.</desc>
 <rect width="1200" height="240" fill="#173849"/><rect x="0" y="0" width="12" height="240" fill="#bc8842"/>
-<g fill="#f4f0e7"><text x="48" y="67" font-family="Verdana,sans-serif" font-size="15" letter-spacing="3">ISMAEEL HABEEB / SELECTED WORK</text><text x="48" y="132" font-family="Georgia,serif" font-size="44">Software that can be inspected and used.</text><text x="48" y="188" font-family="Verdana,sans-serif" font-size="18">Browser tools · Backend services · Technical writing</text></g>
+<g fill="#f4f0e7"><text x="48" y="67" font-family="Verdana,sans-serif" font-size="15" letter-spacing="3">ISMAEEL HABEEB / SELECTED WORK</text><text x="48" y="132" font-family="Georgia,serif" font-size="44">Programming. Systems. Ideas put to work.</text><text x="48" y="188" font-family="Verdana,sans-serif" font-size="18">Rust · C · TypeScript · JavaScript · Python · SQL</text></g>
 </svg>
