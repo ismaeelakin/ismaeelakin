@@ -1,6 +1,6 @@
 # Ismaeel Habeeb
 
-![Programming, systems and technical writing](assets/header.svg)
+![Programming, systems and technical writing](assets/header-programming.svg)
 
 I work across programming, systems, web applications and technical writing. My public projects use **Rust, C, TypeScript, JavaScript, Python and SQL**: from bounded-memory numerical tools to browser products and services that recover from failed requests.
 
@@ -21,7 +21,7 @@ I work across programming, systems, web applications and technical writing. My p
 
 Upload or paste your own file, choose checks, inspect flagged records and export the rows that pass. File contents stay in the browser. No account is required.
 
-[![Rowcraft review workspace](assets/rowcraft.png)](https://ismaeelakin.github.io/rowcraft/)
+[![Rowcraft review workspace](assets/rowcraft-current.png)](https://ismaeelakin.github.io/rowcraft/)
 
 [Source](https://github.com/ismaeelakin/rowcraft) · [Design](https://github.com/ismaeelakin/rowcraft/blob/main/docs/DESIGN.md) · [Tests](https://github.com/ismaeelakin/rowcraft/tree/main/test)
 
