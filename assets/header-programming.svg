@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
-<title id="title">Programming, systems and technical writing</title><desc id="desc">Browser tools, backend services and reproducible engineering work by Ismaeel Habeeb.</desc>
-<rect width="1200" height="240" fill="#173849"/><rect x="0" y="0" width="12" height="240" fill="#bc8842"/>
-<g fill="#f4f0e7"><text x="48" y="67" font-family="Verdana,sans-serif" font-size="15" letter-spacing="3">ISMAEEL HABEEB / SELECTED WORK</text><text x="48" y="132" font-family="Georgia,serif" font-size="44">Programming. Systems. Ideas put to work.</text><text x="48" y="188" font-family="Verdana,sans-serif" font-size="18">Rust · C · TypeScript · JavaScript · Python · SQL</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+<title id="title">Ismaeel Habeeb — programming and systems</title>
+<desc id="desc">Browser applications, backend services and systems utilities. Rust, C, TypeScript, JavaScript, Python and SQL.</desc>
+<rect width="1200" height="220" fill="#173849"/>
+<path d="M42 38V182" stroke="#bc8842" stroke-width="5"/>
+<g fill="#f4f0e7" font-family="Verdana,sans-serif">
+<text x="70" y="66" font-size="16" letter-spacing="3">ISMAEEL HABEEB</text>
+<text x="70" y="123" font-family="Georgia,serif" font-size="38">Browser tools. Backend services. Systems.</text>
+<text x="70" y="173" font-size="17">Rust · C · TypeScript · JavaScript · Python · SQL</text>
+</g></svg>
