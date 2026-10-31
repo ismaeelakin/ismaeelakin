@@ -2,18 +2,19 @@
 
 ![Ismaeel Habeeb — programming and systems](assets/header-programming.svg)
 
-I build browser tools, backend services and systems utilities. My work spans **Rust, C, TypeScript, JavaScript, Python and SQL**, with an emphasis on data correctness, explicit failure handling and interfaces people can try for themselves.
+I build browser tools, creative software, backend services and systems utilities. My work spans **Rust, C, TypeScript, JavaScript, Python and SQL**, with an emphasis on data correctness, explicit failure handling and interfaces people can try for themselves. My ongoing project, **Framefold**, explores animation, editable alternatives and selective creative review, starting with a working browser-local 2D alpha.
 
-[Try Rowcraft](https://ismaeelakin.github.io/rowcraft/) · [Review the code](REVIEW_GUIDE.md) · [LinkedIn](https://www.linkedin.com/in/ismaeel-habeeb-01980619b/) · [Contact](mailto:ismaeelakin09@gmail.com)
+[Try Framefold](https://framefold-psi.vercel.app/) · [Try Rowcraft](https://ismaeelakin.github.io/rowcraft/) · [Review the projects](REVIEW_GUIDE.md) · [LinkedIn](https://www.linkedin.com/in/ismaeel-habeeb-01980619b/) · [Contact](mailto:ismaeelakin09@gmail.com)
 
 ## Selected projects
 
-| Project | What it does | Where to start |
-| --- | --- | --- |
-| **[Rowcraft](https://github.com/ismaeelakin/rowcraft)** | Checks CSV files locally in the browser. Review missing fields, duplicates and invalid records before exporting. | **[Use the live app](https://ismaeelakin.github.io/rowcraft/)** — no account or upload required |
-| **[Dispatch Ledger](https://github.com/ismaeelakin/dispatch-ledger)** | A TypeScript/SQLite webhook service with tenant isolation, transactional fanout, signed deliveries and retry history. | [Run the local demo](https://github.com/ismaeelakin/dispatch-ledger#readme) · [Source](https://github.com/ismaeelakin/dispatch-ledger/tree/main/src) |
-| **[Latency Atlas](https://github.com/ismaeelakin/latency-atlas)** | Rust and C streaming histograms with bounded storage, percentile bounds and overflow checks. | [Design](https://github.com/ismaeelakin/latency-atlas/blob/main/docs/DESIGN.md) · [Independent Python oracle](https://github.com/ismaeelakin/latency-atlas/blob/main/tests/conformance.py) |
-| **[RelayBox](https://github.com/ismaeelakin/relaybox)** | A Python/SQLite job queue with token-fenced leases, retry backoff and dead-letter recovery. | [Run it locally](https://github.com/ismaeelakin/relaybox#readme) · [Tests](https://github.com/ismaeelakin/relaybox/tree/main/tests) |
+| Project                                                               | What it does                                                                                                                                                        | Where to start                                                                                                                                                                             |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[Framefold](https://github.com/ismaeelakin/framefold-community)**   | A browser-local 2D animation alpha with story panels, editable proposals and selective change review. Connected 2D/3D production and modelling are research tracks. | **[Try the alpha](https://framefold-psi.vercel.app/)** · [Capabilities and roadmap](https://github.com/ismaeelakin/framefold-community/blob/main/ROADMAP.md)                               |
+| **[Rowcraft](https://github.com/ismaeelakin/rowcraft)**               | Checks CSV files locally in the browser. Review missing fields, duplicates and invalid records before exporting.                                                    | **[Use the live app](https://ismaeelakin.github.io/rowcraft/)** — no account or upload required                                                                                            |
+| **[Dispatch Ledger](https://github.com/ismaeelakin/dispatch-ledger)** | A TypeScript/SQLite webhook service with tenant isolation, transactional fanout, signed deliveries and retry history.                                               | [Run the local demo](https://github.com/ismaeelakin/dispatch-ledger#readme) · [Source](https://github.com/ismaeelakin/dispatch-ledger/tree/main/src)                                       |
+| **[Latency Atlas](https://github.com/ismaeelakin/latency-atlas)**     | Rust and C streaming histograms with bounded storage, percentile bounds and overflow checks.                                                                        | [Design](https://github.com/ismaeelakin/latency-atlas/blob/main/docs/DESIGN.md) · [Independent Python oracle](https://github.com/ismaeelakin/latency-atlas/blob/main/tests/conformance.py) |
+| **[RelayBox](https://github.com/ismaeelakin/relaybox)**               | A Python/SQLite job queue with token-fenced leases, retry backoff and dead-letter recovery.                                                                         | [Run it locally](https://github.com/ismaeelakin/relaybox#readme) · [Tests](https://github.com/ismaeelakin/relaybox/tree/main/tests)                                                        |
 
 ## Try Rowcraft with your own data
 
@@ -25,11 +26,12 @@ Open the example, inspect the flagged records, then download the ready CSV and r
 
 ## Engineering questions behind the projects
 
+- **How can artists explore alternatives without losing approved work?** Framefold separates proposed edits from the main scene and makes overlapping changes explicit. Its next capabilities are being specified before implementation; the public community documents current limits and research conditions.
 - **What happens when delivery fails?** Dispatch Ledger retains attempt history and separates database transactions from HTTP delivery. RelayBox exercises expired leases, stale workers and replay.
 - **How much precision can bounded memory provide?** Latency Atlas returns explicit percentile intervals. Its independent oracle checks the results against exact sorted ranks.
 - **What should a data tool preserve?** Rowcraft keeps original values available for inspection and makes excluded rows explicit at export.
 
-The backend projects are runnable reference implementations with documented operating limits. Their repositories include setup instructions, tests and design decisions. **[The review guide](REVIEW_GUIDE.md)** gives a short exercise for each project.
+The backend projects are runnable reference implementations with documented operating limits. Their repositories include setup instructions, tests and design decisions. Framefold's application source remains private; its live alpha, public guides and research roadmap are available to review. **[The review guide](REVIEW_GUIDE.md)** gives a short exercise for each project.
 
 ## Languages and tools
 

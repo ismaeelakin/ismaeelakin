@@ -1,6 +1,14 @@
 # Review selected work
 
-Choose a project by the question you want to investigate. These routes use the checked-in examples and tests; no private data or paid services are needed.
+Choose a project by the question you want to investigate. These routes use public examples, live applications and, where source is public, checked-in code and tests. No private data or paid services are needed.
+
+## Try selective creative review
+
+[Open Framefold](https://framefold-psi.vercel.app/) and enter the studio. In the original sample, select **A quicker delivery**, keep the courier's position change and leave the rotation changes out. Preview and apply the selection. Download the project and export a still to inspect the result.
+
+The available product is a browser-local 2D alpha: ten-second scenes, basic drawing/raster layers, story panels and file-based proposals. It does not yet offer cloud projects, native 3D or frame-by-frame character animation. The application source is private; review [the current guide](https://github.com/ismaeelakin/framefold-community/blob/main/GETTING_STARTED.md), [testing tasks](https://github.com/ismaeelakin/framefold-community/blob/main/TESTING.md) and [specification-first roadmap](https://github.com/ismaeelakin/framefold-community/blob/main/ROADMAP.md). Full 3D modelling and geometry-aware review remain conditional research.
+
+Question to investigate: when main and a proposal change the same property differently, how does the review prevent an unnoticed overwrite?
 
 ## Use a complete browser product
 
@@ -42,4 +50,4 @@ Question to investigate: why can a lease token protect queue state without guara
 - [Array exercises](https://ismaeelakin.github.io/js-fundamentals/): enter `3, 1, 3, -2`, then compare numeric sorting and duplicate removal.
 - [Loop Trace](https://ismaeelakin.github.io/fundamental_js_part_2/): trace ascending and descending integer loops, inspect exact totals and test the iteration guard.
 
-These are learning applications with smaller scope. The four pinned projects contain the main design and testing material.
+These are learning applications with smaller scope. The selected projects above contain the main product, design and testing material.
